@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { useEditorStore } from '~/editor';
-import { storeToRefs } from 'pinia';
+import { useEditorStore } from '~/stores/editor';
 
 const editorStore = useEditorStore();
 const { meta } = storeToRefs(editorStore);
